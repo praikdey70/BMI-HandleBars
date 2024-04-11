@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.calContainer{
+    width: 600px;
+    height: 240px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+input{
+    padding: 4px;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+.btn-1,
+.btn{
+    padding: 4px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 96%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 174, 255);
+}
+
+.resContainer{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.result-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-para{
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.results{
+    background-color: rgb(13, 203, 255);
+    /* padding: 5px; */
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Caculator</title>
+    <link rel="stylesheet" href="../views/public/style.css">
+  </head>
+  <body>
+    <h1 class="page-head">BMI calculator by {{name}}</h1>
+    <div class="calculation">
+      <form action="/result" method="POST">
+        <div class="calContainer">
+          Height:<input id="inp" name="height" class="height_inp" type="number" placeholder="Enter your height in cm" step="any" min="0" autocomplete="off"required/><br />
+          Weight:<input id="inp" name="weight" class="weight_inp" type="number" placeholder="Enter your weights in kg" step="any" min="0" autocomplete="off" required/><br />
+
+          <div class="button">
+            <button class="btn-1">Calculate BMI</button>
+            <button class="btn">Clear</button>
+          </div>
+          <!-- <button class="btn-1">Reset</button> -->
+        </div>
+      </form>
+
+    </div>
+
+    <div class="resContainer">
+      <div class="chart">
+        <h2 class="result-heading">BMI Weight Ranges</h2>
+
+        <p class="info-para">
+          Less than 18.5 = Underweight
+          <br />
+          Between 18.5 - 24.9 = Healthy Weight
+          <br />
+          Between 25.0 - 29.9 = OverWeight
+          <br />
+          Over 30.0 = Obese
+        </p>
+
+        <h2>Result</h2>
+        {{! <div class="results">
+               
+            </div> }}
+
+        <div class="results">
+            <p>{{r}}</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
